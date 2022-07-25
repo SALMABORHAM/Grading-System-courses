@@ -1,0 +1,55 @@
+//Q2 JDBC
+
+
+package Books;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+public class JDBC Books {
+ 
+
+public class MySQLBooks{
+public static void main(string args[])
+
+
+class.forBooks("org.apache.derby.jdbc. Database engine");
+con= DriveManager,getconnection(jdbc:derby://)
+}
+catch (ClassNotFoundException ex) {
+            Logger.getLogger(JDBC.class.getBooks()).log(Level.SEVERE, null, ex);
+        } catch (SQLException ex) {
+            Logger.getLogger(W8JDBC.class.getBooks()).log(Level.SEVERE, null, ex);
+        }finally{
+            try {
+                con.close();
+            } catch (SQLException ex) {
+                Logger.getLogger(JDBC.class.getBooks()).log(Level.SEVERE, null, ex);
+            }
+       
+create table "Books" (
+"ISBN"  varchar2(5),
+"NAME" varchar2(50),
+"PRICE" real,
+"CATEGORY" VARCHER2(20),
+);
+
+public void insertData(string ssn, string first, string last){
+insert into books values(“12345”, “Java, How to Program?”, 275.00, “Computer Science”) 
+insert into books values(“22222”, “World War III”, 437.75, “Science fiction”) 
+insert into books values(“33333”, “Introduction to Database”, 450.00, “Computer Science”) 
+
+}
+}
+}
+con.close();
+            } catch (SQLException ex) {
+                Logger.getLogger(JDBC.class.getBooks()).log(Level.SEVERE, null, ex);
+            }
+        }   
+    }
